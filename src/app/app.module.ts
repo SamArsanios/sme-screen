@@ -14,6 +14,9 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 //Material
 import { MaterialModule } from "./material/material.module";
 import { AllOrdersComponent } from './all-orders/all-orders.component';
+import { InvoicesComponent } from './invoices/invoices.component';
+import { ApproveInvoicesComponent } from './invoices/approve-invoices/approve-invoices.component';
+import { AllInvoicesComponent } from './invoices/all-invoices/all-invoices.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AllOrdersComponent } from './all-orders/all-orders.component';
     ApproveOrdersComponent,
     PendingOrdersComponent,
     InviteContactsComponent,
-    AllOrdersComponent
+    AllOrdersComponent,
+    InvoicesComponent,
+    ApproveInvoicesComponent,
+    AllInvoicesComponent
   ],
   imports: [
     BrowserModule,

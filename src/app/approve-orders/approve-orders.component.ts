@@ -11,7 +11,7 @@ export interface IApproveOrder {
 const ELEMENT_DATA: IApproveOrder[] = [
   {
     orderNo: "ORD-1",
-    orderDate: "12 - 12 - 2011",
+    orderDate: "12 - 12 - 2011",  
     orderDueDate: "1 - 1 - 2012",
     orderStatus: "Processing"
   },
@@ -86,6 +86,7 @@ export class ApproveOrdersComponent implements OnInit {
     "orderStatus",
     "empty"
   ];
+
   dataSource = new MatTableDataSource(ELEMENT_DATA);
   @ViewChild(MatSort, { static: true }) sort: MatSort;
   @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
