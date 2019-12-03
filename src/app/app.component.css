@@ -1,0 +1,29 @@
+/* input.mat-input. */
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+/* this is for the create order form */
+/* .container {
+  margin-top: 5%;
+}
+
+mat-form-field {
+  width: 95%;
+} */
+
+/* /////////////////////////////////// */
+
+/* this is for the navbar */
+.navbar {
+  justify-content: space-between;
+}
+
+span,
+a {
+  /* margin-right: 50px; */
+  padding-right: 1rem;
+  color: #fff;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration-line: none;
+}
