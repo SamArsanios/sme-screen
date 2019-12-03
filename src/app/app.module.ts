@@ -17,6 +17,9 @@ import { AllOrdersComponent } from './all-orders/all-orders.component';
 import { InvoicesComponent } from './invoices/invoices.component';
 import { ApproveInvoicesComponent } from './invoices/approve-invoices/approve-invoices.component';
 import { AllInvoicesComponent } from './invoices/all-invoices/all-invoices.component';
+import { VaultComponent } from './vault/vault.component';
+import { ApprovedInvoicesComponent } from './vault/approved-invoices/approved-invoices.component';
+import { CompletedInvoicesComponent } from './vault/completed-invoices/completed-invoices.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { AllInvoicesComponent } from './invoices/all-invoices/all-invoices.compo
     AllOrdersComponent,
     InvoicesComponent,
     ApproveInvoicesComponent,
-    AllInvoicesComponent
+    AllInvoicesComponent,
+    VaultComponent,
+    ApprovedInvoicesComponent,
+    CompletedInvoicesComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { ApproveOrdersComponent } from "./approve-orders/approve-orders.componen
 import { AllOrdersComponent } from "./all-orders/all-orders.component";
 import { InvoicesComponent } from "./invoices/invoices.component";
 import { InviteContactsComponent } from "./invite-contacts/invite-contacts.component";
+import { VaultComponent } from "./vault/vault.component";
 
 const routes: Routes = [
   { path: "create-order", component: CreateOrderComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: "approve-orders", component: ApproveOrdersComponent },
   { path: "all-orders", component: AllOrdersComponent },
   { path: "invoices", component: InvoicesComponent },
-  { path: "invite", component: InviteContactsComponent }
+  { path: "invite", component: InviteContactsComponent },
+  { path: "vault", component: VaultComponent }
 ];
 
 @NgModule({
